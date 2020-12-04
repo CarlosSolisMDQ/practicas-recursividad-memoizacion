@@ -1,7 +1,7 @@
 
-# Recursion: este algoritmo disminuye un numero N en una unidad hasta llegar a cero. 
+## Recursion: este algoritmo disminuye un numero N en una unidad hasta llegar a cero. 
 
-## El coste del este algoritmo es lineal.
+### El coste del este algoritmo es lineal.
 
 
 ```
@@ -16,8 +16,8 @@ console.log(bar(10));
 
 
 
-# Algoritmo para averiguar el numero N de la serie fibonacci 
-## (cada numero de fibonacci es la suma de sus dos anteriores)
+## Algoritmo para averiguar el numero N de la serie fibonacci 
+### (cada numero de fibonacci es la suma de sus dos anteriores)
 
 ```
         4
@@ -52,7 +52,7 @@ console.log(fib(13));
 ```
 
 
-## El problema de esta solucion es que si querés calcular un numero grande el costo del algoritmo es exponencial O^n
+### El problema de esta solucion es que si querés calcular un numero grande el costo del algoritmo es exponencial O^n
 
 >Literalmente si ponés n = 50 el algoritmo se empacha.
 
@@ -85,7 +85,7 @@ con lo cual duplicamos los nodos en cada nivel.
 
 
 
-## la solucion al problema de el costo exponencial de calcular cada nodo es con la tecnica de MEMOIZÁCION
+### la solucion al problema de el costo exponencial de calcular cada nodo es con la tecnica de MEMOIZÁCION
 
 
 ```
@@ -101,7 +101,7 @@ let memoDib = (n, memo = {}) => {
 console.log(memoDib(10));
 ```
 
-## Se puede usar la misma estrategia para resolver el de fibonacci
+### Se puede usar la misma estrategia para resolver el de fibonacci
 
 ```
 let memoFibo = (n, memo = {}) => {
