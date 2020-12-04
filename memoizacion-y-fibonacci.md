@@ -30,11 +30,11 @@ console.log(bar(10));
 **ej:** el 4 numero fibo es 3, por qué? cada nodo toma el valor retornado por sus hojas, con lo cual el nivel inferior
 2 y 1 retornan 1 cada uno (1 no puede retornar 0 por que 1 no es la suma de un cero y el dos tambien solo tiene un 1 como hoja)
 
--el nodo 3 es la suma de sus hojas, por lo tanto es **1+1=2**
+- el nodo 3 es la suma de sus hojas, por lo tanto es **1+1=2**
 
--el nodo 2 retorna 1
+- el nodo 2 retorna 1
 
--el nodo 4 es la suma de sus hojas que valen respectivamente 2 y 1 por lo tanto el nodo 4 
+- el nodo 4 es la suma de sus hojas que valen respectivamente 2 y 1 por lo tanto el nodo 4 
 (que en realidad es el tercer nivel del arbol) es **2+1= 3**
 
 >el 4 numero de la serie fibonacci es el 3  ===> 0,1,1,2,3... (se cuenta igual que en un array, desde cero)
