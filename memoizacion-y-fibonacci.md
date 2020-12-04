@@ -85,7 +85,7 @@ con lo cual duplicamos los nodos en cada nivel.
 
 
 
-### la solucion al problema de el costo exponencial de calcular cada nodo es con la tecnica de MEMOIZACIÓN
+### la solucion al problema del costo exponencial de calcular cada nodo es con la tecnica de MEMOIZACIÓN
 
 
 ```
@@ -123,5 +123,5 @@ con las tablas que encontré de fibonacci.
 
 
 
-
+**apunte sacado del video de FCC sobre programacion dinamica** [https://www.youtube.com/watch?v=oBt53YbR9Kk&t=4802s]
 
