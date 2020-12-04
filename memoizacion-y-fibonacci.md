@@ -114,7 +114,7 @@ let memoFibo = (n, memo = {}) => {
 console.log(memoFibo(70));
 ```
 
-Ahora si se pueden poner un numero grande en el algoritmo fibo, ya que cada numero calculado se agrega en un objeto que funciona 
+Ahora si se puede poner un numero grande en el algoritmo fibo, ya que cada numero calculado se agrega en un objeto que funciona 
 como diccionario o mapa de hash. Cuando el numero ya existe en el mapa la funcion retorna en el primer if y
 devuelve n (el valor actual) al nivel superior. Si no existe, sigue la recursion y baja un nivel creando dos hojas.
 
