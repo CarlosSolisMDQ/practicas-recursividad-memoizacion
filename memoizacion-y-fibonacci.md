@@ -1,7 +1,7 @@
 
-#Recursion: este algoritmo disminuye un numero N en una unidad hasta llegar a cero. 
+# Recursion: este algoritmo disminuye un numero N en una unidad hasta llegar a cero. 
 
-##El coste del este algoritmo es lineal.
+## El coste del este algoritmo es lineal.
 
 
 ```
@@ -16,7 +16,8 @@ console.log(bar(10));
 
 
 
-#Algoritmo para averiguar el numero N de la serie fibonacci (cada numero de fibonacci es la suma de sus dos anteriores)
+# Algoritmo para averiguar el numero N de la serie fibonacci 
+## (cada numero de fibonacci es la suma de sus dos anteriores)
 
 ```
         4
@@ -26,15 +27,15 @@ console.log(bar(10));
     2   1
 ```
 
-ej: el 4 numero fibo es 3, por qué? cada nodo toma el valor retornado por sus hojas, con lo cual el nuvel inferior
+**ej:** el 4 numero fibo es 3, por qué? cada nodo toma el valor retornado por sus hojas, con lo cual el nuvel inferior
 2 y 1 retornan 1 cada uno (1 no puede retornar 0 por que 1 no es la suma de un cero y el dos tambien solo tiene un 1 como hoja)
 
--el nodo 3 es la suma de sus hojas, por lo tanto es 1+1=2
+-el nodo 3 es la suma de sus hojas, por lo tanto es **1+1=2**
 
 -el nodo 2 retorna 1
 
 -el nodo 4 es la suma de sus hojas que valen respectivamente 2 y 1 por lo tanto el nodo 4 
-(que en realidad es el tercer nivel del arbol) es 2+1= 3
+(que en realidad es el tercer nivel del arbol) es **2+1= 3**
 
 >el 4 numero de la serie fibonacci es el 3  ===> 0,1,1,2,3... (se cuenta igual que en os array, desde cero)
 
@@ -51,7 +52,7 @@ console.log(fib(13));
 ```
 
 
-##El problema de esta solucion es que si querés calcular un numero grande el costo del algoritmo es exponencial O^n
+## El problema de esta solucion es que si querés calcular un numero grande el costo del algoritmo es exponencial O^n
 
 >Literalmente si ponés n = 50 el algoritmo se empacha.
 
@@ -84,7 +85,7 @@ con lo cual duplicamos los nodos en cada nivel.
 
 
 
-##la solucion al problema de el costo exponencial de calcular cada nodo es con la tecnica de MEMOIZÁCION
+## la solucion al problema de el costo exponencial de calcular cada nodo es con la tecnica de MEMOIZÁCION
 
 
 ```
@@ -100,7 +101,7 @@ let memoDib = (n, memo = {}) => {
 console.log(memoDib(10));
 ```
 
-##Se puede usar la misma estrategia para resolver el de fibonacci
+## Se puede usar la misma estrategia para resolver el de fibonacci
 
 ```
 let memoFibo = (n, memo = {}) => {
@@ -119,4 +120,8 @@ retorna n (el valor actual) al nivel superior. Si no existe, sigue la recursion 
 
 >Hasta 70 da resultado sin errores, mas adelante ya no sé si es un problema del procesador o que pero da divergencias 
 con las tablas que encontré de fibonacci.
+
+
+
+
 
