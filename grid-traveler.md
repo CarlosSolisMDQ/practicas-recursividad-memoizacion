@@ -49,7 +49,7 @@ console.log(gridTravelerMemo(18, 18));
 
 - visualizar el problema como un arbol.
 - implementar un arbol recursivo.
-- probar que un imput grande no lo empache.
+- probar que un input grande no lo empache.
 - agregar un objeto vacio en el tope del arbol recursivo
 - definir casos base
 - ingresar el nodo en el objeto
